@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.json"],
+  "include": ["backend/src/**/*.ts", "backend/src/**/*.js", "backend/src/**/*.json"],
   "compilerOptions": {
     "resolveJsonModule": true,
     "outDir": "dist",

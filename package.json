@@ -1,13 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
   "description": "Game Engine/Backend",
-  "main": "dist/backend/src/index.js",
+  "main": "backend/dist/backend/src/index.js",
   "private": "true",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "node dist/backend/src/index.js",
-    "build": "tsc",
+    "start": "node backend/dist/backend/src/index.js",
+    "build": "tsc && cd frontend/ && npm install && npm run build",
     "dev": "tsc -w"
   },
   "devDependencies": {
